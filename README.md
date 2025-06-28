@@ -1,26 +1,32 @@
-🤖 Ankuram AI Chatbot – Ankurova 1.0
-Ankuram AI Chatbot is the conversational system built for Ankurova 1.0, the first-generation humanoid robot developed at Ankuram Academy. Powered by Gemini 1.5 and served through a Flask backend, this chatbot enables natural interaction between users and the robot, tailored for educational environments.
+## 🤖 Ankuram AI Chatbot – Ankurova 1.0
 
-⚙️ Tech Stack
-🧠 Gemini 1.5 – LLM-powered responses and contextual reasoning
+**Ankuram AI Chatbot** is a custom-built conversational system designed for **Ankurova 1.0**, the first-generation humanoid robot developed at Ankuram Academy. This chatbot enables Ankurova to interact naturally with users—students, teachers, and visitors—using intelligent, context-aware communication powered by **Gemini 1.5** and a lightweight **Flask** backend.
 
-🐍 Flask (Python) – Lightweight API backend
+It is crafted specifically for educational purposes, enhancing how users interact with robots in a school environment. From answering questions to guiding students and supporting classroom activities, the chatbot is a core part of the Ankurova experience.
 
-🌐 HTML, CSS, JavaScript – Interactive front-end UI
+---
 
-🍃 MongoDB – Stores conversation history and user data
+### ⚙️ Tech Stack
 
-💡 Features
-Human-like conversation integrated into Ankurova 1.0
+* 🧠 **Gemini 1.5** – Handles natural language processing, understanding, and intelligent responses
+* 🐍 **Flask (Python)** – Backend server managing request handling, routing, and API communication
+* 🌐 **HTML, CSS, JavaScript** – Frontend interface for testing, interaction, and demonstration
+* 🍃 **MongoDB** – Database used to store chat history, user context, and logs
 
-Smart educational support for school-related queries
+---
 
-Web-based interface for testing and debugging
+### 💡 Key Features
 
-Modular, scalable, and optimized for embedded use
+* **Conversational AI**: Enables natural, human-like interaction with users
+* **Robot Integration**: Built specifically for deployment on Ankurova 1.0's onboard system
+* **Web Interface**: Provides an accessible frontend for debugging, remote access, and testing
+* **Persistent Memory**: Uses MongoDB to remember interactions, allowing future context-aware responses
+* **Custom-Tailored**: Designed for use within Ankuram Academy, focusing on education, school support, and engagement
+* **Modular Design**: Easily extendable for future robot upgrades and additional use cases
 
-Real-time database syncing with MongoDB
+---
 
-🎯 Use Case
-Designed for Ankuram Academy, this AI chatbot enhances the capabilities of Ankurova 1.0 by providing real-time, intelligent interactions with students and staff.
+### 🎯 Use Case
+
+This project was developed as part of the robotics and AI initiative at **Ankuram Academy**. The chatbot serves as Ankurova 1.0’s voice and brain—interacting with students, answering questions, and participating in educational activities. It demonstrates how modern AI can be embedded in real-world, school-friendly robots to make learning more interactive, fun, and accessible.
 
