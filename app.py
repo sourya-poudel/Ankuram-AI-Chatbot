@@ -7,7 +7,7 @@ import threading
 import time
 
 # Load API key and configure Gemini
-my_api_key_gemini = 'AIzaSyCz1h_vn4E3kq9zhWHmP9LlQ67RyOSJhHU'
+my_api_key_gemini = 'AIzaSyCgnzgRaFEYygJ2JjeZaSwIUhaLuGci2TA'
 genai.configure(api_key=my_api_key_gemini)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
