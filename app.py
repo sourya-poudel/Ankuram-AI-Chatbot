@@ -9,7 +9,7 @@ import time
 # Load API key and configure Gemini
 my_api_key_gemini = 'AIzaSyB5Qx-ht56m6NwV27DIz8z_jhA5hHri0nI'
 genai.configure(api_key=my_api_key_gemini)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -34,4 +34,5 @@ def open_browser():
 if __name__ == "__main__":
     threading.Thread(target=open_browser).start()
     app.run()
+
 
